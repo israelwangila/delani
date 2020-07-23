@@ -16,6 +16,13 @@ Name >> The username.
 Email >> The user email
 Message >> The message from the user
 
+## Technologies used.
+* HTML5
+* CSS
+* Bootstrap
+* Javascript
+* JQuery
+
 ## LICENSE
 The MIT License (MIT)
 MIT{/home/moringa/Documents/birthday/License.md}
