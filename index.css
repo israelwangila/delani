@@ -78,24 +78,19 @@ html {
 }
 
 .contact-overlay {
-    background-color: black
+    background-color: black;
 }
 
 .form-control{
-    background-color: #66000000;
+    background-color: yellow;
     color: white;
 }
 .input{
     margin-top: 30px;
 }
-.b-text{
-    font-family: 'Comfortaa', cursive;
-}
-.m-text{
-    font-family: 'Raleway', sans-serif;
-}
+
 .name{
-    margin-right: 5px;
+    margin-right: 6px;
 }
 input.error {
     border: 1px dashed red;
@@ -105,4 +100,3 @@ input.error {
 .email{
     margin-right: 5px;
 }
-mmmmmmmmmmmmmmmmmmmmmmm
