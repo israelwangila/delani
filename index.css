@@ -65,7 +65,7 @@ html {
 }
 
 .contacts {
-    background-image: url("../images/backgrounds/c_image.jpg");
+    background-image: url("images/backgrounds/c.jpg")
     background-size: cover;
 }
 
@@ -79,11 +79,13 @@ html {
 
 .contact-overlay {
     background-color: black;
+    background-image: url("images/backgrounds/c.jpg")
 }
 
 .form-control{
-    background-color: yellow;
+    background-color:#6666;
     color: white;
+    
 }
 .input{
     margin-top: 30px;
