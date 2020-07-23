@@ -6,7 +6,12 @@ html {
     margin: 0;
     padding: 0;
 }
-overlay {
+.overlay {
     background-color: rgba(182, 2, 2, 0.6);
     height: 668px;
+}
+
+.overlay > img, .h-text {
+    position: relative;
+    top: 33%;
 }
