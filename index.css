@@ -39,6 +39,16 @@ html {
     background-size: cover;
     height: 668px;
 }
+.services {
+    background-image: url("../images/backgrounds/s_image.jpg");
+    height: 280px;
+}
+
+.services h1 {
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
 #bounce {
     animation: bounce 5s infinite;
 }
