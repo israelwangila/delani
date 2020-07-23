@@ -80,3 +80,28 @@ html {
 .contact-overlay {
     background-color: black
 }
+
+.form-control{
+    background-color: #66000000;
+    color: white;
+}
+.input{
+    margin-top: 30px;
+}
+.b-text{
+    font-family: 'Comfortaa', cursive;
+}
+.m-text{
+    font-family: 'Raleway', sans-serif;
+}
+.name{
+    margin-right: 5px;
+}
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+.email{
+    margin-right: 5px;
+}
