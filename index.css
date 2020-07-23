@@ -42,3 +42,10 @@ html {
 #bounce {
     animation: bounce 5s infinite;
 }
+.about {
+    height: 270px;
+}
+
+.about h1 {
+    margin-top: 35px;
+}
