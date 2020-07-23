@@ -63,3 +63,20 @@ html {
     /*height: 650px;*/
     padding-bottom: 50px;
 }
+
+.contacts {
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-size: cover;
+}
+
+.contacts h1 {
+    position: relative;
+    top: 30px;
+}
+.text{
+    margin-bottom: 20px;
+}
+
+.contact-overlay {
+    background-color: black
+}
