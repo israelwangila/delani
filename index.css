@@ -15,3 +15,6 @@ html {
     position: relative;
     top: 33%;
 }
+.overlay > img, .welcome {
+    margin-bottom: 30px;
+}
