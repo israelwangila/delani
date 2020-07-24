@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poiret+One|Raleway|Ubuntu+Mono&display=swap');
 html {
     scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .container-fluid {
     margin: 0;
     padding: 0;
 }
-.overlay {
 
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
     height: 668px;
 }
 
@@ -15,11 +26,27 @@ html {
     position: relative;
     top: 33%;
 }
+.h-text{
+    font-family: 'Comfortaa', cursive;
+}
+.smaller-text{
+    font-family: 'Ubuntu Mono', monospace;
+}
 .overlay > img, .welcome {
     margin-bottom: 30px;
 }
+
 .click {
     margin-top: 330px;
+}
+
+.jumbotron-fluid {
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 668px;
+}
+#bounce {
+    animation: bounce 3s infinite;
 }
 
 @keyframes bounce {
@@ -34,11 +61,14 @@ html {
     }
 }
 
-.jumbotron-fluid {
-    background-image: url("../images/backgrounds/h_img.jpg");
-    background-size: cover;
-    height: 668px;
+.about {
+    height: 250px;
 }
+
+.about h1 {
+    margin-top: 30px;
+}
+
 .services {
     background-image: url("../images/backgrounds/s_image.jpg");
     height: 280px;
@@ -49,23 +79,27 @@ html {
     top: 30px;
     margin-bottom: 20px;
 }
-#bounce {
-    animation: bounce 5s infinite;
-}
-.about {
-    height: 270px;
+
+.small-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 280px;
 }
 
-.about h1 {
-    margin-top: 35px;
+
+.what-we-do h1 {
+    margin-top: 30px;
 }
+figcaption{
+    margin-top: 20px;
+}
+
 .portfolio {
     /*height: 650px;*/
     padding-bottom: 50px;
 }
 
 .contacts {
-    background-image: url("images/backgrounds/c.jpg")
+    background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
 }
 
@@ -78,21 +112,24 @@ html {
 }
 
 .contact-overlay {
-    background-color: black;
-    background-image: url("images/backgrounds/c.jpg")
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .form-control{
-    background-color:#6666;
+    background-color: #66000000;
     color: white;
-    
 }
 .input{
     margin-top: 30px;
 }
-
+.b-text{
+    font-family: 'Comfortaa', cursive;
+}
+.m-text{
+    font-family: 'Raleway', sans-serif;
+}
 .name{
-    margin-right: 6px;
+    margin-right: 5px;
 }
 input.error {
     border: 1px dashed red;
