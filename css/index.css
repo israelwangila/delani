@@ -85,6 +85,10 @@ body {
     height: 280px;
 }
 
+.contacts {
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-size: cover;
+}
 
 .what-we-do h1 {
     margin-top: 30px;
@@ -98,10 +102,6 @@ figcaption{
     padding-bottom: 50px;
 }
 
-.contacts {
-    background-image: url("../images/backgrounds/c_image.jpg");
-    background-size: cover;
-}
 
 .contacts h1 {
     position: relative;
